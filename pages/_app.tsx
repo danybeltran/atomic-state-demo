@@ -15,8 +15,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="p-2">
       <Head>
-        <title>Home - FavStore</title>
-        <meta name="description" content="Get what you want, now." />
+        <title>Demo - Atomic state</title>
+        <meta name="title" content="Demo - Atomic state" />
+        <meta name="description" content="Demo for atomic-state" />
+        <meta property="og:image" content="/preview-image.png"/>
+        <meta />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="py-10 px-2 md:px-14">
