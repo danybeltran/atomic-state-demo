@@ -9,13 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "aesthetic-state": "^1.2.3",
     "atomic-state": "^1.0.3",
-    "crypto-js": "^4.1.1",
     "http-react-fetcher": "^1.0.2",
-    "jsonwebtoken": "^8.5.1",
     "mime-types": "^2.1.32",
-    "mysql2": "^2.3.0",
     "next": "11.1.0",
     "next-api-validation": "^1.0.4",
     "react": "17.0.2",
@@ -23,8 +19,6 @@
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
-    "@types/crypto-js": "^4.0.2",
-    "@types/jsonwebtoken": "^8.5.5",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "autoprefixer": "^10.3.3",
