@@ -17,7 +17,27 @@ export default function Index() {
           <AddNote onSave={actions.close} />
         </section>
       </Modal>
-      <h2 className="text-4xl font-semibold border-dotted">Your local notes</h2>
+      <div className="flex space-x-4 text-sm">
+        <a
+          className="text-blue-700 border-dotted border-blue-700 border-b-2 py2"
+          href="https://github.com/danybeltran/atomic-state-demo"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View on Github
+        </a>
+        <a
+          className="text-blue-700 border-dotted border-blue-700 border-b-2 py2"
+          href="https://github.com/danybeltran/atomic-state"
+          target="_blank"
+          rel="noreferrer"
+        >
+          atomic-state
+        </a>
+      </div>
+      <h2 className="text-4xl font-semibold border-dotted py-4">
+        Your local notes
+      </h2>
       <p>
         <small>Double tap a note to delete it</small>
       </p>
